@@ -7,11 +7,19 @@
 }
 
 .main {
+  display: flex;
   background: #222;
   padding: 20px;
   margin: 40px;
   border-radius: 10px;
+  max-width: 1200px;
+}
+
+body {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .main .img {
