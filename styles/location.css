@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Thai&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  background: #222;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.main .img {
+  width: 500px;
+  height: 500px;
+}
+
+.main .content {
+  color: white;
+  padding: 20px;
+}
+
+.main .content .title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.main .content .sub {
+  max-width: 600px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
